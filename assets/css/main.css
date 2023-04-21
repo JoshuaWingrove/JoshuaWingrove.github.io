@@ -46,6 +46,8 @@ blockquote, q {
 		content: none;
 	}
 
+	
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -2621,6 +2623,10 @@ input, select, textarea {
 			-ms-flex-grow: 1;
 			flex-grow: 1;
 			margin: 0 0 2em 0;
+		}
+
+		#header > .inner > .h2{
+			line-height: 300px;
 		}
 
 		#header strong, #header b {
